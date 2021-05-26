@@ -10,8 +10,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
  
 @Configuration
 @Order(1)
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-  
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter { 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
@@ -38,3 +37,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder(); 
     }
 }
+

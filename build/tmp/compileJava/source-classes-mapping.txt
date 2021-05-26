@@ -1,4 +1,10 @@
+com/word/apiDemo/config/ResourceServerConfig.java
+ com.word.apiDemo.config.ResourceServerConfig
 com/word/apiDemo/ApiDemoApplication.java
  com.word.apiDemo.ApiDemoApplication
 com/word/apiDemo/controller/HelloController.java
  com.word.apiDemo.controller.HelloController
+com/word/apiDemo/config/WebSecurityConfig.java
+ com.word.apiDemo.config.WebSecurityConfig
+com/word/apiDemo/config/AuthServerConfig.java
+ com.word.apiDemo.config.AuthServerConfig
